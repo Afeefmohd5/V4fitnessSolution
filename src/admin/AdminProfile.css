@@ -1,0 +1,14 @@
+.admin-profile {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-profile h3 {
+  color: #333;
+}
+
+.admin-profile form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 0.375rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}

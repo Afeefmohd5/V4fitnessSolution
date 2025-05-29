@@ -1,0 +1,46 @@
+.configure-broker {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.configure-broker .card {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #f0f4f8;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.configure-broker h3 {
+  color: #4b6cb7;
+  margin-bottom: 1.5rem;
+}
+
+.configure-broker .form-label {
+  font-weight: 600;
+  color: #4b6cb7;
+}
+
+.configure-broker .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.configure-broker .form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
+}
+
+.configure-broker .btn-primary {
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.configure-broker .btn-primary:hover {
+  background-color: #5a67d8;
+  color: white;
+}

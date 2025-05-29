@@ -1,0 +1,48 @@
+.access-trading {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.access-trading .card {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  background: #f0f4f8;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.access-trading h3, .access-trading h4 {
+  color: #4b6cb7;
+  margin-bottom: 1rem;
+}
+
+.access-trading .form-label {
+  font-weight: 600;
+  color: #4b6cb7;
+}
+
+.access-trading .form-control,
+.access-trading .form-select {
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.access-trading .form-control:focus,
+.access-trading .form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
+}
+
+.access-trading .btn-primary {
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.access-trading .btn-primary:hover {
+  background-color: #5a67d8;
+  color: white;
+}

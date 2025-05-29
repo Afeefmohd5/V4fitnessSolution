@@ -1,0 +1,237 @@
+.user-dashboard {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.dashboard-header {
+  height: 80vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
+  margin-bottom: 3rem;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.tagline-carousel {
+  font-size: 1.5rem;
+  font-weight: 500;
+  max-width: 700px;
+}
+
+.carousel-controls {
+  margin-top: 1.5rem;
+}
+
+.carousel-controls .btn {
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #4b6cb7;
+  border: none;
+}
+
+.carousel-controls .btn:hover {
+  background-color: #5a67d8;
+  color: white;
+}
+
+/* Company overview and other sections styling */
+.company-overview, .company-goals, .company-mission, .company-vision {
+  background: #f0f4f8;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.company-overview h2,
+.company-goals h3,
+.company-mission h3,
+.company-vision h3 {
+  color: #4b6cb7;
+  margin-bottom: 1rem;
+}
+
+.company-goals ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #555;
+}
+
+.testimonials {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.testimonials h2 {
+  color: #4b6cb7;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonial {
+  background: #e9ecef;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 400px;
+  font-style: italic;
+  color: #555;
+}
+
+.testimonial footer {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #4b6cb7;
+  text-align: right;
+}
+
+.subscription-model {
+  background: #f0f4f8;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.subscription-model h2 {
+  color: #4b6cb7;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.subscription-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.subscription-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.subscription-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(75, 108, 183, 0.4);
+}
+
+.subscription-card h3 {
+  color: #4b6cb7;
+  margin-bottom: 1rem;
+}
+
+.subscription-card p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.subscription-card .price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 1rem;
+}
+
+.btn-primary, .btn-outline-primary {
+  border-radius: 50px;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #5a67d8;
+  color: white;
+}
+
+.btn-outline-primary {
+  border: 2px solid #667eea;
+  color: #667eea;
+}
+
+.btn-outline-primary:hover {
+  background-color: #5a67d8;
+  color: white;
+}
+
+.contact-us {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 0 auto 3rem auto;
+}
+
+.contact-us h2 {
+  color: #4b6cb7;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .testimonial-cards,
+  .subscription-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}

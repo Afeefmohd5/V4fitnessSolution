@@ -1,0 +1,60 @@
+  .admin-sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  border-right: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+}
+
+.admin-sidebar-brand {
+  padding: 1rem 0;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.admin-sidebar .nav-link {
+  color: #333;
+  padding: 0.75rem 1rem;
+  font-weight: 500;
+}
+
+.admin-sidebar .nav-link.active {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: 700;
+}
+
+.admin-sidebar .nav-link:hover {
+  background-color: #e9ecef;
+  color: #0d6efd;
+}
+
+.admin-sidebar .nav-item.dropdown {
+  position: relative;
+}
+
+.admin-sidebar .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 0.125rem;
+  z-index: 1050;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.admin-sidebar .dropdown-menu.show {
+  display: block;
+}
